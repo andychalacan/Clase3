@@ -1,0 +1,18 @@
+depo = float
+base = float
+opci = int
+
+while opci>=3:
+ print("---------------------")
+ print("--------BANCO--------")
+ print("1)Depositar dinero")
+ print("2)Consultar dinero")
+ print("3)Salir")
+ (input("Ingrese opcion: "))
+
+while opci >= 3:
+
+ if opci ==1:
+    depo=int(input("Ingrese la cantidad a ingresar"))
+ elif opci ==2:
+    print (f"La cantidad en su cuenta es de {base+depo}")
